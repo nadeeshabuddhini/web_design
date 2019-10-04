@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Riveer</title>
+	<style type="text/css">
+	body{background-color:#FAEBD7;}
+		ul{list-style-type: none;margin: 10px;padding: 10px;}
+		li{float: left;}
+		li a{
+			display: block;
+			width: 235px;
+			background-color: #800000;
+			color: black;
+			text-decoration:none; 
+			text-align: center;
+			padding: 10px;}
+		
+
+			h1{font-family:Harlow Solid Italic;font-size:45px;color:black;}
+
+		.h2{font-size: 30px;color:brown;font-family:Impact;}
+		li a:hover{
+		background-color:black ;
+		color: white;
+	}
+	div.head1 h1{
+	    font size:50px;
+		color:blue;
+		font-family: Algerian;
+	}
+	div.para1{
+		font-size:25px;
+        
+	}
+	</style>
+</head>
+<body>
+<h1>Riveer</h1>	
+
+<ul>
+	<li><a href="home.html">HOME</a></li>
+<li><a href="history.html">HISTORY</a></li>
+<li><a href="types.html">TYPES</a></li>
+<li><a href="career.html">CAREER</a></li>
+<li><a href="second.html">CONTACT US</a></li>
+</ul><br><br>
+<a href="type1.html" class="link">&nbsp;&nbsp;&nbsp;*Graphic Design Types</a><br>
+<a href="type2.html" class="link">&nbsp;&nbsp;&nbsp;*Animation Types</a>
+<center>	
+		<div class="imgs">
+		<img class="mySlides" src="asset/photo2.jpg" width="700px" height="400px">
+		<img class="mySlides"src="asset/image2.jpg" "500px" height="400px">
+		<img class="mySlides"src="asset/f5.jpg" "500px" height="400px">
+		<img class="mySlides"src="asset/f3.jpg" "500px" height="400px">
+		<img class="mySlides"src="asset/f4.jpg" "500px" height="400px">
+		</center>
+			
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+</script>
+<div class="head1">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphic Design Types</h1>
+</div>
+<div class="para1">
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are 8 types of Graphic Design. They are;
+	<br><ol>
+		<li>Visual identity graphic design</li><br>
+	    <li>Marketing & advertising graphic design</li><br>
+		<li>User interface graphic design</li><br>
+		<li>Publication graphic design</li><br>
+		<li>Packaging graphic design</li><br>
+		<li>Motion graphic design</li><br>
+		<li>Environmental graphic design</li><br>
+		<li>Art and illustration for graphic design</li><br></p>
+	</ol></p>
+</div>
+<div class="head1">
+	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Animation Types</h1>
+</div>
+<div class="para1">
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are 5 types of Animation. They are;
+		<br><ol>
+			<li>2D Animation</li><br>
+			<li>3D Animation</li><br>
+			
+		</ol>
+	</p></div>
+	<ul>
+	<li><a href="home.html">HOME</a></li>
+<li><a href="history.html">HISTORY</a></li>
+<li><a href="types.html">TYPES</a></li>
+<li><a href="career.html">CAREER</a></li>
+<li><a href="second.html">CONTACT US</a></li>
+</ul>
+
+								<marquee><p>Copyright &copy;|H.K.N Buddhini|HTML5|CSS</p></marquee>
+		</div>
+
+		</html>
